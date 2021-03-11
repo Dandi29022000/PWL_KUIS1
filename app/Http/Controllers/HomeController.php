@@ -21,4 +21,8 @@ class HomeController extends Controller
     public function contact() {
         return view('contact');
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> bd8d0715fa592daa4d00add90ced277fce76ab57
