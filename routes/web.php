@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\ProductController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,7 +18,12 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/',[HomeController::class, 'index']);
-Route::get('/menu',[HomeController::class, 'menu']);
-Route::get('/today-special',[HomeController::class, 'todayspecial']);
-Route::get('/contact',[HomeController::class, 'contact']);
+Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/contact-us', [ContactController::class, 'index']);
+
+Route::get('/customer', [CustomerController::class, 'index']);
+
+Route::get('/menu', [MenuController::class, 'index']);
+
+Route::get('/products', [ProductController::class, 'index']);

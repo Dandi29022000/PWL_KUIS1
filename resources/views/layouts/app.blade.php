@@ -32,25 +32,7 @@ http://www.templatemo.com/tm-466-cafe-house
       <div class="loader-section section-right"></div>
     </div>
     <!-- End Preloader -->
-    <div class="tm-top-header">
-      <div class="container">
-        <div class="row">
-          <div class="tm-top-header-inner">
-
-            @include('layouts.menu')
-
-            <div class="tm-logo-container">
-              <img src="img/logo.png" alt="Logo" class="tm-site-logo">
-              <h1 class="tm-site-name tm-handwriting-font">Cafe House</h1>
-            </div>
-            <div class="mobile-menu-icon">
-              <i class="fa fa-bars"></i>
-            </div>
-            
-          </div>           
-        </div>    
-      </div>
-    </div>
+    @include('layouts.menu')
     <section class="tm-welcome-section">
       <div class="container tm-position-relative">
         <div class="tm-lights-container">
