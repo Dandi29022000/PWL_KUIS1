@@ -26,6 +26,18 @@ class PegawaiSeeder extends Seeder
             'nama' => 'Auzan Messi',
             'absen' => '03',
             'foto' => 'CR.jfif'
-            ]);
+        ]);
+        DB::table('pegawais')->insert([
+            'nim' => '1541721334',
+            'nama' => 'Ahmad Nur Fauzi',
+            'absen' => '08',
+            'foto' => 'Ahmad.jfif'
+        ]);
+        DB::table('pegawais')->insert([
+            'nim' => '1541721344',
+            'nama' => 'Navis Abdillah',
+            'absen' => '10',
+            'foto' => 'Navis.jfif'
+        ]);
     }
 }
