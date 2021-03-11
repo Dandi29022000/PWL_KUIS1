@@ -6,6 +6,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\PegawaiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,5 @@ Route::get('/customer', [CustomerController::class, 'index']);
 Route::get('/menu', [MenuController::class, 'index']);
 
 Route::get('/products', [ProductController::class, 'index']);
+
+Route::get('/pegawai', [PegawaiController::class, 'index']);

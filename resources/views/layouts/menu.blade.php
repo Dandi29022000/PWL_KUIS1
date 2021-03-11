@@ -16,6 +16,7 @@
                         <li><a href="/menu" class="{{ Request::is('menu') ? 'active' : '' }}">Menu</a></li>
                         <li><a href="/contact-us" class="{{ Request::is('contact-us') ? 'active' : '' }}">Contact</a></li>
                         <li><a href="/products" class="{{ Request::is('products') ? 'active' : '' }}">Products</a></li>
+                        <li><a href="/pegawai" class="{{ Request::is('pegawai') ? 'active' : '' }}">Pegawai</a></li>
                     </ul>
                 </nav>
             </div>
